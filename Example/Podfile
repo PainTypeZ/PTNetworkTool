@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PTNetworkTool_Example' do
+  pod 'PTNetworkTool', :path => '../'
+
+  target 'PTNetworkTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
