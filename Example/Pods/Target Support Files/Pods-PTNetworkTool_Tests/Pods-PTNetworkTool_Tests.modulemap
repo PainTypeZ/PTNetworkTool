@@ -1,0 +1,6 @@
+framework module Pods_PTNetworkTool_Tests {
+  umbrella header "Pods-PTNetworkTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

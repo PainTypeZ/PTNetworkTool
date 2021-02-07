@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - PTNetworkTool (0.1.0):
+    - Moya
+    - SwiftyJSON
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - PTNetworkTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  PTNetworkTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PTNetworkTool: 8631be8ad73e12021b6b88b830ff3c797623ec01
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: f222f990f58b4210f274eda2b47a6656fd656d65
+
+COCOAPODS: 1.10.1
